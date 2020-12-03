@@ -13,8 +13,8 @@ Los requisitos de software para poder hacer funcionar esta configuracion son:
 * curl
 
 ## Instalacion Neovim
-Para poder tener instalado Neovim, debemos ejecutar el siguiente comando en ubuntu:
-```````
+***Para poder tener instalado Neovim, debemos ejecutar el siguiente comando en ubuntu:
+
 ```bash 
 	$ sudo apt-get install neovim
 ```
