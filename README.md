@@ -6,6 +6,7 @@ editor de codigo de consola.
 
 ## Requerimientos
 Los requisitos de software para poder hacer funcionar esta configuracion son:
+
 * Ubuntu 20.04
 * NodeJs 10.19.0
 * npm 6.14.4
@@ -56,3 +57,32 @@ y presionar enter. Con  esto se iniciara la instalacion de los plugins.
 
 ## Kite
 
+Es un plugin que sirve para multiples editores de codigo y nos permite 
+mediante el uso de machine learning generar autocompletado de codigo.
+
+Para usarlo debemos instalar el plugin en el sistema operativo desde la 
+pagina oficial. Para esto ejecutaremos el siguiente comando en linux:
+
+```bash
+	$ bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)" 
+```
+Una vez que instalamos no debemos seleccionar la opcion de instalar 
+plugins automaticamente, sino debemos realizar el siguiente paso en la 
+terminal:
+
+```bash
+	$ mkdir -p ~/.config/nvim/pack/kite/start/kite
+	$ git clone https://github.com/kiteco/vim-plugin.git ~/.config/nvim/pack/kite/start/kite/
+```
+
+## COC - Conquer of Completation
+Coc permite realizar autocompletado para los lenguajes que no son soportados por 
+kite, y tambien permite agregar las referencias a la deficiones de funciones/clases.
+Coc ya se encuentra instalado con los plugins anteriores, solo que debemos abrir 
+neovim y posteriormente apretar dentro de vim 
+
+
+```bash
+	:CocInstall coc-tsserver coc-json
+```
+Con esto ya estaria listo el editor de codigo.
