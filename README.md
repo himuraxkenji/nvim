@@ -74,6 +74,14 @@ pagina oficial. Para esto ejecutaremos el siguiente comando en linux:
 ```bash
 	$ bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)" 
 ```
+
+Si no se puede iniciar la interfaz grafica, debido a que se ejecuta todo
+dentro de una terminal, para setear el usuario y contraseña debe ejecutar
+el comando
+```bash
+	~/.local/share/kite/login-user
+```
+
 Una vez que instalamos no debemos seleccionar la opcion de instalar 
 plugins automaticamente, sino debemos realizar el siguiente paso en la 
 terminal:
