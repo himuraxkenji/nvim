@@ -12,6 +12,12 @@ Los requisitos de software para poder hacer funcionar esta configuracion son:
 * npm 6.14.4
 * git
 * curl
+* wget
+En ubuntu 20.04 se puede ejecutar
+
+```bash
+	$ sudo apt-get install nodejs npm git curl wget
+```	
 
 ## Instalacion Neovim
 ***Para poder tener instalado Neovim, debemos ejecutar el siguiente comando en ubuntu:
