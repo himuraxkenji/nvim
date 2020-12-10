@@ -12,6 +12,12 @@ Los requisitos de software para poder hacer funcionar esta configuracion son:
 * npm 6.14.4
 * git
 * curl
+* wget
+En ubuntu 20.04 se puede ejecutar
+
+```bash
+	$ sudo apt-get install nodejs npm git curl wget
+```	
 
 ## Instalacion Neovim
 ***Para poder tener instalado Neovim, debemos ejecutar el siguiente comando en ubuntu:
@@ -25,8 +31,10 @@ En este paso lo que debemos hacer es clonar el repositorio en el home de nuestro
 Los archivos que contiene el repositorio, contienen toda la configuracion necesaria
 para poder dejar neovim como un editor de codigo potente. Para ello debemos ejecutar
 los siguientes comandos.
-
+Si el directorio no esta creado debe crearlo 
 ```bash
+	# Si el directorio no esta creado
+	$ mkdir ~/.config
 	$ cd ~/.config
 	$ git clone https://github.com/himuraxkenji/nvim
 ```
@@ -66,6 +74,14 @@ pagina oficial. Para esto ejecutaremos el siguiente comando en linux:
 ```bash
 	$ bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)" 
 ```
+
+Si no se puede iniciar la interfaz grafica, debido a que se ejecuta todo
+dentro de una terminal, para setear el usuario y contraseña debe ejecutar
+el comando
+```bash
+	~/.local/share/kite/login-user
+```
+
 Una vez que instalamos no debemos seleccionar la opcion de instalar 
 plugins automaticamente, sino debemos realizar el siguiente paso en la 
 terminal:
