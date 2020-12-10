@@ -25,8 +25,10 @@ En este paso lo que debemos hacer es clonar el repositorio en el home de nuestro
 Los archivos que contiene el repositorio, contienen toda la configuracion necesaria
 para poder dejar neovim como un editor de codigo potente. Para ello debemos ejecutar
 los siguientes comandos.
-
+Si el directorio no esta creado debe crearlo 
 ```bash
+	# Si el directorio no esta creado
+	$ mkdir ~/.config
 	$ cd ~/.config
 	$ git clone https://github.com/himuraxkenji/nvim
 ```
