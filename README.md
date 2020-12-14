@@ -1,8 +1,8 @@
-# Guia de configuracion NeoVim
+# Guía de configuración NeoVim
 
-Para el desarrollo de software existen multiples editores de codigo, entre ellos se 
+Para el desarrollo de software existen múltiples editores de código, entre ellos se 
 encuentran una gran variedad. Para este proyecto se empleara NeoVim, el cual es un
-editor de codigo de consola.
+editor de código de consola.
 
 ## Requerimientos
 Los requisitos de software para poder hacer funcionar esta configuracion son:
